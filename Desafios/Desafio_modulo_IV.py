@@ -56,7 +56,7 @@ print(df_nombres)
 # 4. Cargar el dataframe del titanic (titanic.csv), y visualizar la información
 #    del mismo.
 
-tabla_titanic = pd.read_csv(r"C:\Users\brook\OneDrive\Escritorio\Portafolio\EducacionIT_ejercicios\EducacionIT_python_para_analisis_de_datos\Archivos\titanic.csv")
+tabla_titanic = pd.read_csv("titanic.csv")
 
 tabla_titanic.head()
 
